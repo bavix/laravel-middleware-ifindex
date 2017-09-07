@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace Bavix\Middleware;
 
 use Illuminate\Http\Request;
 
