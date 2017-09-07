@@ -14,7 +14,7 @@ class IfIndex
 
         if (strpos($uri, $name) !== false)
         {
-            $path  = $request->path();
+            $path  = '/' . ltrim($request->path(), '/');
             $query = $request->getQueryString();
 
             if (null !== $query)
