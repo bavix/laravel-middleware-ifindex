@@ -1,0 +1,33 @@
+{
+  "name": "bavix/laravel-middleware-ifindex",
+  "description": "IfIndex Middleware for Laravel 5",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "if",
+    "index",
+    "index.php",
+    "no index.php",
+    "middleware"
+  ],
+  "authors": [
+    {
+      "name": "Babichev Maxim",
+      "email": "info@babichev.net"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "laravel/framework": "5.4.x|5.5.x"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bavix\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
