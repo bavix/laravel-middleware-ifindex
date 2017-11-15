@@ -12,7 +12,7 @@ First, require this package in your composer file
 composer require bavix/laravel-middleware-ifindex
 ```
 
-After updating, add the ServiceProvider to the array of providers in config/app.php
+After updating, add the ServiceProvider to the array of providers in config/app.php. If you use laravel 5.5 above, miss this step.
 ```php
 Bavix\Providers\IfIndexProvider::class,
 ```
