@@ -16,3 +16,8 @@ After updating, add the ServiceProvider to the array of providers in config/app.
 ```php
 Bavix\Providers\IfIndexProvider::class,
 ```
+
+---
+Supported by
+
+[![Supported by JetBrains](https://cdn.rawgit.com/bavix/development-through/46475b4b/jetbrains.svg)](https://www.jetbrains.com/)
