@@ -1,6 +1,6 @@
 # laravel-middleware-ifindex
 
-This package solves CEOs problems. 
+This package solves SEO problems. 
 ```
 http://example/index.php -> 301, http://example/
 http://example/index.php/en -> 301, http://example/en
